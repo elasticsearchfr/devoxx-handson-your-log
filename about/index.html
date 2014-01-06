@@ -2,42 +2,42 @@
 layout: default
 ---
 
-<div class="starter-template">
+<div class="about">
 
-<div class="row">
-        {% for author_id in site.author_ids %}
-        {% assign author = site.authors[author_id] %}
-        <div class="col-lg-6">
-          <img
-                                class="img-circle"
-                                src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s={{site.gravatar_size}}"
-                                alt="{{ author.display_name }}"
-                                width="{{site.gravatar_size}}"
-                                height="{{site.gravatar_size}}"
-                        >
-          <h2>{{ author.display_name }}</h2>
-          <h3 class="text-muted">{{ author.job_title }} @ <a href="{{author.company['url']}}">{{ author.company['name'] }}</a></h3>
-          <p>{{ author.bio }}</p>
-          <p>
-                <a class="fa-stack fa-lg" href="http://twitter.com/{{ author.twitter }}">
-                  <i class="fa fa-twitter-square fa-stack-2x"></i>
-                </a>
-                <a class="fa-stack fa-lg" href="http://github.com/{{ author.github }}">
-                  <i class="fa fa-github-square fa-stack-2x"></i>
-                </a>
-                <a class="fa-stack fa-lg" href="http://www.linkedin.com/in/{{ author.linkedin }}">
-                  <i class="fa fa-linkedin-square fa-stack-2x"></i>
-                </a>
-                <a class="fa-stack fa-lg" href="mailto:{{ author.email }}">
-                  <i class="fa fa-envelope fa-stack-2x"></i>
-                </a>
-                <a class="fa-stack fa-lg" href="{{ author.web }}">
-                  <i class="fa fa-sign-in fa-stack-2x"></i>
-                </a>
-                
-        </p>
-        </div><!-- /.col-lg-4 -->
-        {% endfor %}
-</div>
+        <div class="row">
+                {% for author_id in site.author_ids %}
+                {% assign author = site.authors[author_id] %}
+                <div class="col-lg-6">
+                  <img
+                                        class="img-circle"
+                                        src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s={{site.gravatar_size}}"
+                                        alt="{{ author.display_name }}"
+                                        width="{{site.gravatar_size}}"
+                                        height="{{site.gravatar_size}}"
+                                >
+                  <h2>{{ author.display_name }}</h2>
+                  <h3 class="text-muted">{{ author.job_title }} @ <a href="{{author.company['url']}}">{{ author.company['name'] }}</a></h3>
+                  <p>{{ author.bio }}</p>
+                  <p>
+                        <a class="fa-stack fa-lg" href="http://twitter.com/{{ author.twitter }}">
+                          <i class="fa fa-twitter-square fa-stack-2x"></i>
+                        </a>
+                        <a class="fa-stack fa-lg" href="http://github.com/{{ author.github }}">
+                          <i class="fa fa-github-square fa-stack-2x"></i>
+                        </a>
+                        <a class="fa-stack fa-lg" href="http://www.linkedin.com/in/{{ author.linkedin }}">
+                          <i class="fa fa-linkedin-square fa-stack-2x"></i>
+                        </a>
+                        <a class="fa-stack fa-lg" href="mailto:{{ author.email }}">
+                          <i class="fa fa-envelope fa-stack-2x"></i>
+                        </a>
+                        <a class="fa-stack fa-lg" href="{{ author.web }}">
+                          <i class="fa fa-sign-in fa-stack-2x"></i>
+                        </a>
+                        
+                </p>
+                </div><!-- /.col-lg-4 -->
+                {% endfor %}
+        </div>
 
 </div>
