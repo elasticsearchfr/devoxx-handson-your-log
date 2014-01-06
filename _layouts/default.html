@@ -19,8 +19,8 @@ navigation:
     <title>{{ site.name }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/stylesheets/main.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/stylesheets/main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,7 +46,7 @@ navigation:
           <ul class="nav navbar-nav">
               {% for link in page.navigation %}
               <li {% if page.url == link.url %}class="active"{% endif %}>
-                 <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a></li>
+                 <a href="{{site.baseurl}}{{link.url}}" title="{{link.title}}">{{link.text}}</a></li>
               {% endfor %}
           </ul>
         </div><!--/.nav-collapse -->
@@ -63,7 +63,7 @@ navigation:
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/javascripts/jquery.min.js"></script>
-    <script src="assets/stylesheets/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/javascripts/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/javascripts/bootstrap.min.js"></script>
   </body>
 </html>

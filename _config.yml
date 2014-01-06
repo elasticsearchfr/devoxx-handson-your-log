@@ -2,6 +2,8 @@ safe: true
 lsi: false
 pygments: true
 
+baseurl: http://elasticsearchfr.github.io/devoxx-handson-your-log
+
 name: Devoxx Hand's on your Logs ! 
 description: description...
 titlebar: Project
