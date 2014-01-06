@@ -6,7 +6,7 @@ baseurl: http://elasticsearchfr.github.io/devoxx-handson-your-log
 
 name: Devoxx Hand's on your Logs ! 
 description: description...
-titlebar: Project
+titlebar: Hand's on
 
 author_ids: [dadoonet, vspiewak]
 
