@@ -3,9 +3,9 @@ Init
 sudo gem install bundler
 sudo bundle install
 
-Run
-===
-bundle exec jekyll serve
+Run (with hot reload)
+=====================
+bundle exec jekyll serve -w --baseurl ""
 
 Go to: http://localhost:4000/
 
