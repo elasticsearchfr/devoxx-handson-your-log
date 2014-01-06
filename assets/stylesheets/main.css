@@ -10,3 +10,13 @@ body {
 .nowrap {
 	white-space:nowrap;
 }
+
+.center-block {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center-block {
+	max-width: 900px;
+}
