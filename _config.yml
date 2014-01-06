@@ -8,6 +8,8 @@ name: Devoxx Hand's on your Logs !
 description: description...
 titlebar: Hand's on
 
+gravatar_size: 150
+
 author_ids: [dadoonet, vspiewak]
 
 authors:
@@ -18,8 +20,10 @@ authors:
     web: http://dev.david.pilato.fr
     twitter: dadoonet
     github: dadoonet
-    job_title: job_title
-    bio: 'David Pilato is Technical Advocate at elasticsearch and French spoken language User Group creator.<br /> In his free time, he likes talking about elasticsearch in conferences like Devoxx FR and BE, JUGs, Web5, Agile France, Mix-IT or in companies (Brown Bag Lunches).'
+    linkedin: dadoonet
+    job_title: Technical advocate
+    company: Elasticsearch
+    bio: 'David Pilato is Technical Advocate at elasticsearch and French spoken language User Group creator. In his free time, he likes talking about elasticsearch in conferences like Devoxx FR and BE, JUGs, Web5, Agile France, Mix-IT or in companies (Brown Bag Lunches).'
   vspiewak:
     display_name: Vincent Spiewak
     gravatar: 5c7908a6f9e7024dcd931b8c08c74a63
@@ -27,6 +31,8 @@ authors:
     web: http://blog.xebia.fr/author/vspiewak
     twitter: vspiewak
     github: vspiewak
-    job_title: job_title
-    bio: 'Vincent est un consultant passionné travaillant chez Xebia.<br /> Il aime concevoir des projets innovants dans un cadre Agile.<br /> Son expérience tourne autour du monde Java / EE, WOA, et de la conduite du changement.'
+    linkedin: vincentspiewak
+    job_title: Java / Agile consultant
+    company: Xebia
+    bio: 'Vincent est un consultant passionné travaillant chez Xebia. Il aime concevoir des projets innovants dans un cadre Agile. Son expérience tourne autour du monde Java / EE, WOA, et de la conduite du changement.'
 

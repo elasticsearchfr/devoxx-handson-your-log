@@ -3,36 +3,41 @@ layout: default
 ---
 
 <div class="starter-template">
-	<div class="authors">
+
+<div class="row">
         {% for author_id in site.author_ids %}
         {% assign author = site.authors[author_id] %}
-        <div id="{{ author_id }}" class="author">
-                <hr>
-                <a href="{{ author.web }}">
-                        <img
-                                class="after"
-                                src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=150"
+        <div class="col-lg-6">
+          <img
+                                class="img-circle"
+                                src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s={{site.gravatar_size}}"
                                 alt="{{ author.display_name }}"
-                                width="150"
-                                height="150"
+                                width="{{site.gravatar_size}}"
+                                height="{{site.gravatar_size}}"
                         >
+          <h2>{{ author.display_name }}</h2>
+          <h3 class="text-muted">{{ author.job_title }} @ {{ author.company }}</h3>
+          <p>{{ author.bio }}</p>
+          <p>
+                <a class="fa-stack fa-lg" href="http://twitter.com/{{ author.twitter }}">
+                  <i class="fa fa-twitter-square fa-stack-2x"></i>
                 </a>
-                <h2>{{ author.display_name }}, {{ author.job_title }}</h2>
-                <p>{{ author.bio }}</p>
-                <ul>
-                        <li>
-                                Twitter:
-                                <a href="https://twitter.com/#!/{{ author.twitter }}">@{{ author.twitter }}</a>
-                        </li>
-                        <li>
-                                Web:
-                                <a href="{{ author.web }}">{{ author.web }}</a>
-                        </li>
-                        <li>
-                                Email:
-                                <a href="mailto:{{ author.email }}">{{ author.email }}</a>
-                        </li>
-                </ul>
-        </div>
-        {% endfor %}  
+                <a class="fa-stack fa-lg" href="http://github.com/{{ author.github }}">
+                  <i class="fa fa-github-square fa-stack-2x"></i>
+                </a>
+                <a class="fa-stack fa-lg" href="http://www.linkedin.com/in/{{ author.linkedin }}">
+                  <i class="fa fa-linkedin-square fa-stack-2x"></i>
+                </a>
+                <a class="fa-stack fa-lg" href="mailto:{{ author.email }}">
+                  <i class="fa fa-envelope fa-stack-2x"></i>
+                </a>
+                <a class="fa-stack fa-lg" href="{{ author.web }}">
+                  <i class="fa fa-sign-in fa-stack-2x"></i>
+                </a>
+                
+        </p>
+        </div><!-- /.col-lg-4 -->
+        {% endfor %}
+</div>
+
 </div>
