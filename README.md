@@ -3,5 +3,5 @@ devoxx-handson-your-log
 
 Todo
 -------
-* create gh-pages branch
-* convert existing workshop without Amazon EC2
+* remove Amazon EC2 references
+* add user-agent in log-generator / filter config / dashboard line
