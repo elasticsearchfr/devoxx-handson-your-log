@@ -16,7 +16,7 @@ layout: default
                                 height="{{site.gravatar_size}}"
                         >
           <h2>{{ author.display_name }}</h2>
-          <h3 class="text-muted">{{ author.job_title }} @ {{ author.company }}</h3>
+          <h3 class="text-muted">{{ author.job_title }} @ <a href="{{author.company['url']}}">{{ author.company['name'] }}</a></h3>
           <p>{{ author.bio }}</p>
           <p>
                 <a class="fa-stack fa-lg" href="http://twitter.com/{{ author.twitter }}">

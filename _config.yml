@@ -22,7 +22,9 @@ authors:
     github: dadoonet
     linkedin: dadoonet
     job_title: Technical advocate
-    company: Elasticsearch
+    company:
+        name: Elasticsearch
+        url: http://elasticsearch.org
     bio: 'David Pilato is Technical Advocate at elasticsearch and French spoken language User Group creator. In his free time, he likes talking about elasticsearch in conferences like Devoxx FR and BE, JUGs, Web5, Agile France, Mix-IT or in companies (Brown Bag Lunches).'
   vspiewak:
     display_name: Vincent Spiewak
@@ -33,7 +35,9 @@ authors:
     github: vspiewak
     linkedin: vincentspiewak
     job_title: Java / Agile consultant
-    company: Xebia
+    company: 
+        name: Xebia
+        url: http://xebia.fr
     bio: 'Vincent est un consultant passionné travaillant chez Xebia. Il aime concevoir des projets innovants dans un cadre Agile. Son expérience tourne autour du monde <span class="nowrap">Java / EE</span>, WOA, et de la conduite du changement.'
 
 kibana_url: http://download.elasticsearch.org/kibana/kibana/kibana-latest.zip
