@@ -5,3 +5,26 @@ pygments: true
 name: Devoxx Hand's on your Logs ! 
 description: description...
 titlebar: Project
+
+author_ids: [dadoonet, vspiewak]
+
+authors:
+  dadoonet:
+    display_name: David Pilato
+    gravatar: 20049a614b7f6838dc87b4bc39c42079
+    email: david@pilato.fr
+    web: http://dev.david.pilato.fr
+    twitter: dadoonet
+    github: dadoonet
+    job_title: job_title
+    bio: 'the <strong>bio</strong>...'
+  vspiewak:
+    display_name: Vincent Spiewak
+    gravatar: 5c7908a6f9e7024dcd931b8c08c74a63
+    email: vspiewak+github@gmail.com
+    web: http://blog.xebia.fr/author/vspiewak
+    twitter: vspiewak
+    github: vspiewak
+    job_title: job_title
+    bio: 'the <strong>bio</strong>...'
+
