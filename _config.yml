@@ -4,7 +4,7 @@ pygments: true
 
 baseurl: http://elasticsearchfr.github.io/devoxx-handson-your-log
 
-name: Devoxx Hand's on your Logs ! 
+name: "Devoxx: Hand's on your Logs !"
 description: description...
 titlebar: Hand's on
 
@@ -34,5 +34,20 @@ authors:
     linkedin: vincentspiewak
     job_title: Java / Agile consultant
     company: Xebia
-    bio: 'Vincent est un consultant passionné travaillant chez Xebia. Il aime concevoir des projets innovants dans un cadre Agile. Son expérience tourne autour du monde Java / EE, WOA, et de la conduite du changement.'
+    bio: 'Vincent est un consultant passionné travaillant chez Xebia. Il aime concevoir des projets innovants dans un cadre Agile. Son expérience tourne autour du monde <span class="nowrap">Java / EE</span>, WOA, et de la conduite du changement.'
 
+kibana_url: http://download.elasticsearch.org/kibana/kibana/kibana-latest.zip
+kibana_url_title: kibana-latest.zip
+
+logstash_version: 1.2.1
+logstash_url: https://download.elasticsearch.org/logstash/logstash/logstash-1.2.1-flatjar.jar
+logstash_url_title: logstash-1.2.1-flatjar.jar
+
+loggenerator_url: https://github.com/vspiewak/log-generator
+loggenerator_url_title: log-generator.jar
+
+elasticsearch_url: https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.5.tar.gz
+elasticsearch_url_title: elasticsearch-0.90.5.tar.gz
+
+geolitecity_url: http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+geolitecity_url_title: GeoLiteCity.dat
